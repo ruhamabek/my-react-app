@@ -12,8 +12,8 @@ dist
 dist-ssr
 *.local
 README.md
-MyComponent.jsx
 main.jsx
+index.css
 src/assets/react.svg
 public/vite.svg
 index.html
