@@ -1,9 +1,10 @@
-import ColorPicker from "./ColorPicker"
+import ToDoList from "./ToDoList"
+
 function App() {
 
    return(
     <>
-     <ColorPicker/>
+     <ToDoList/>
     </>
    )
 }
