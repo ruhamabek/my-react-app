@@ -17,7 +17,7 @@ function DigitalClock() {
             let seconds = time.getSeconds();
             const meridian = hours > 12 ? "PM" : "AM";
             hours = hours % 12 || 12;
-            return`${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)}:${meridian}`;
+            return`${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)} ${meridian}`;
        }
        
        function padZero(number){
