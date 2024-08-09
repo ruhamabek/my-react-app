@@ -1,24 +1,53 @@
 body{
-      background-image: url(assets/neutral-watercolor-background_23-2150564038.avif);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      min-height: 100vh;
-      align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0 , 0% , 95%);
 }
-.clock-container{
-      width: 100vw;
-      padding: 10px 0;
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
 }
-.clock{
-     color:rgb(150, 122, 122);
-     font-size: 6rem;
-     font-family: monospace;
-     font-weight: bold;
-     text-align: center;
-     text-shadow: 3px 3px 5px hsla(0, 12%, 64%, 0.75) ;
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+  margin-bottom: 25px;
+}
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color:white;
+  transition: background-color 0.5s ease ;
+}
+.start-button{
+  background-color: hsl(115, 100%, 40%);
+}
+.start-button:hover{
+  background-color: hsl(115, 100%, 35%);
+}
+.stop-button{
+  background-color: hsl(10, 90%, 50%);
+}
+.stop-button:hover{
+  background-color: hsl(10, 90%, 45%);
+}
+.reset-button{
+  background-color: hsl(205, 90%, 60%);
+}
+.reset-button:hover{
+  background-color: hsl(205, 90%, 45%);
 }

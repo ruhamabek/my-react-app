@@ -17,6 +17,11 @@ main.jsx
 MyComponent2.jsx
 MyComponent3.jsx
 MyComponent4.jsx
+MyComponent5.jsx
+ComponentA.jsx
+ComponentB.jsx
+ComponentC.jsx
+ComponentD.jsx
 MyComponent1.jsx
 src/assets/react.svg
 public/vite.svg
